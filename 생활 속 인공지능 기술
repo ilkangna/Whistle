@@ -1,0 +1,140 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOE2aTUFblvYBkUsEu1dO8s",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ilkangna/Whistle/blob/master/%EC%83%9D%ED%99%9C%20%EC%86%8D%20%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EA%B8%B0%EC%88%A0\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "xZfJ9LkN9qJN",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "k2Yzatwy9sYv",
+        "colab_type": "text"
+      },
+      "source": [
+        "# 생활 속 인공지능 기술\n",
+        "------------------------------------------\n",
+        "  \n",
+        "##1. 언어 부분\n",
+        "------------------------------------------\n",
+        "  \n",
+        "##2. 음성 부분\n",
+        "***음성텍스트전사(voice-to-text transcription)***\n",
+        "- 행정 업무흐름(administrative workflows) 향상 \n",
+        "- 비환자 케어 활동(non-patient-care activity) 제거\n",
+        "> 비환자 케어 활동 : 차트 노트 작성, 처방전 작성 및 검사 주문 등의 업무\n",
+        "  \n",
+        "> [10가지 유망한 헬스케어 인공지능(Artificial Intelligence, AI) 기술](http://www.kmdianews.com/news/articleView.html?idxno=27103)\n",
+        "> ![10가지 AI 적용 분야](https://hbr.org/resources/images/article_assets/2018/05/W180418_FU_TENAI-1024x770.png)\n",
+        "------------------------------------------\n",
+        "  \n",
+        "##3. 이미지 부분\n",
+        "***The Viz.AI Contact application***\n",
+        "1. 제품 설명\n",
+        "  - 뇌졸중에 관한 표지가 되는 이미지를 분석하는 software(이하: SW)\n",
+        "  - 컴퓨터 기반의 분류 SW로써 AI 알고리즘을 사용하는 SaMD\n",
+        "> SaMD(Software as a Medical Device): 진단, 치료 목적의 SW  \n",
+        "  \n",
+        "2. 제품 역할\n",
+        "  - 뇌졸중 환자에 대한 의학적인 판단을 내리기 위한 보조 SW\n",
+        "  - 나아가 환자를 위한 최적의 치료 방법을 모색\n",
+        "  \n",
+        "3. 작동 원리\n",
+        "  1. 환자 뇌 CT 촬영\n",
+        "  2. 영상의학자들의 판단 및 기존 data와의 비교\n",
+        "  3. 혈관 막힘 증상에 대한 관찰\n",
+        "  4. 신경혈 전문가, 의사에게 문자 알림 전송\n",
+        "  5. 전문가들의 의학적 판단\n",
+        "> CT(computed tomography): X선을 이용하여 인체의 횡단면상의 영상을 획득하여 진단에 이용하는 검사\n",
+        "\n",
+        "4. 학습 목표\n",
+        "  1. 이미지 기반의 타 분석 소프트웨어 매커니즘 확인\n",
+        "  2. SaMD(Software as a Medical Device)가 비의료기기의 적합 승인을 받기 위한 허가(regulation) 조건 검색\n",
+        "\n",
+        "- 참조\n",
+        "> [뇌출혈 진단 어플](https://www.fda.gov/news-events/press-announcements/fda-permits-marketing-clinical-decision-support-software-alerting-providers-potential-stroke)  \n",
+        "> [글로벌 보건 산업 동향](http://www.khiss.go.kr/board/view?pageNum=1&rowCnt=10&no1=350&linkId=175571&menuId=MENU00306&schType=0&schText=&boardStyle=&categoryId=&continent=&schStartChar=&schEndChar=&country=, \"글로벌 보건산업 동향 (Vol.345, 2020.5.11)\")\n",
+        "\n",
+        "------------------------------------------\n",
+        "  \n",
+        "##4. 자율주행 부분\n",
+        "***웨이모(Waymo)***\n",
+        "1. 제품 설명\n",
+        "  - 구글의 자율주행 개발 부문이었다가 2016년 독립한 자율주행 서비스  \n",
+        "  (현재 'waymo one'이라는 택시 호출 서비스 제공)\n",
+        "\n",
+        "2. 제품 특징\n",
+        "  - 방대한 교통 데이터(구글의 검색, 지도 데이터)와 판단 알고리즘(알파고의 기술) 결합\n",
+        "  - SAE의 레벨4 자율주행차\n",
+        "> SAE(Society of Automotive Engineers): 미국 자동차 기술회\n",
+        "![SAE가 제시한 자율주행차의 발전단계](https://images.squarespace-cdn.com/content/v1/54d0280ae4b0424c03ab6474/1579052974455-E5N6VDSGZ3O8QTYSDLVB/ke17ZwdGBToddI8pDm48kL7zrJCMBf13x7ctZyTHr61Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwYz9Tg8aHEyXyuQU5J5M__FqRmbk9K5Aj27ZrFCQaCoJYue1TYWyxGMY-xmPLNILs/image_02.jpg?format=1000w)\n",
+        "  \n",
+        "3. 제품 강점\n",
+        "  - 경쟁사 대비 낮은 '자율 주행 해제(disengagement)' 빈도\n",
+        "  - 축적된 경험에 기반한 기술력(자율주행차 연구 기간 11년, 주행 시험 누적 거리 2천만 마일)\n",
+        "> 자율 주행 해제(disengagement): 오작동과 같은 문제로 자율 주행 모드를 자동에서 수동으로 바꾸는 것\n",
+        "  \n",
+        "4. 작동 원리\n",
+        "  - 유기적인 센서들로 구성된 하나의 시스템(a single integrated system comprised of complementary sensors)으로 차 전체를 관리 \n",
+        "     \n",
+        "    ※ 유기적인 센서의 목록\n",
+        "      1. Lidar\n",
+        "        - 360도, 근처 300미터까지 관찰 가능\n",
+        "        - 흐린 시야에서 적용(ex. moonless nights)\n",
+        "        ![Lidar 예시](https://1.bp.blogspot.com/-Z6cQ5vw4Dlk/Xl_X_BCsMPI/AAAAAAAADIk/ypWQsH2a-M0tVQB84fX0czLJxchNGJAeQCNcBGAsYHQ/s1600/lidar.gif)  \n",
+        "      2. Cameras\n",
+        "        - 매우 역동적인 범위 관찰 가능, 열에 대해 안정\n",
+        "        - 사람/사물 확인(ex. pedestrian, a truck)\n",
+        "        ![camera의 역할](https://1.bp.blogspot.com/-8jb8CwLmrFI/Xl_XVeGEkXI/AAAAAAAADIY/Eik3bGNGwXESFx8mRl5NXhDEt_aqrQHywCNcBGAsYHQ/s1600/magnification_v2.jpg)  \n",
+        "      3. Radars\n",
+        "        - 넓은 영역에 대한 높은 해상도 제공\n",
+        "        - 짖궃은 날씨, 물체의 속도에 대한 확인(ex. an object's velocity even in tough weather)\n",
+        "        ![radar의 역할](https://1.bp.blogspot.com/--U44raN5V5I/Xl_jBVkFOVI/AAAAAAAADJk/pTYCoiQoxtISZKoyEmww6vTVdnScpS9fwCNcBGAsYHQ/s1600/SF.png)  \n",
+        "\n",
+        "5. 학습 목표\n",
+        "  1. 사물/사람 혹은 환경 인식에 대한 dataset 확보 및 분석\n",
+        "    - 2019년 open source로 공개된 웨이모의 dataset을 이용(하기 사이트 이용)  \n",
+        "    [open source 내용 정리](https://m.blog.naver.com/PostView.nhn?blogId=soyose1&logNo=221624542802&proxyReferer=https:%2F%2Fwww.google.com%2F)  \n",
+        "  2. 관심 있는 분야인 헬스케어에 기술 접목 가능성 확인\n",
+        "    - 하기의 이미지를 통해 사물, 사람 및 환경 인식 매커니즘 확인 필요 \n",
+        "![waymo 5th generation](https://1.bp.blogspot.com/-HdpgCJgGiLI/XmBWjma3YfI/AAAAAAAADK0/cpG9o-i4mHEcLvBNEA6yW_RJqf_qieKHgCNcBGAsYHQ/s1600/iPace-lineart-sensor_calloutv2_03022020-01.png)\n",
+        "- 참조\n",
+        "> [웨이모의 압도적인 기술력](https://biz.chosun.com/site/data/html_dir/2019/03/20/2019032004015.html)  \n",
+        "> [해결되어야 할 UX 이슈](https://www.wedesignx.com/knowledge/2020-autonomous-cars-ux-issues)  \n",
+        "> [Introducing the 5th-generation Waymo Driver](https://blog.waymo.com/2020/03/introducing-5th-generation-waymo-driver.html)"
+      ]
+    }
+  ]
+}
