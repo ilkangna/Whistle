@@ -7,8 +7,8 @@
   1. 언어 부분
     - 워드 렌즈(Word Lens)
   2. 음성 부분
-   - Molly
+    - Molly
   3. 이미지 부분
-   - The Viz.AI Contact application
+    - The Viz.AI Contact application
   4. 자율주행 부분
     - 웨이모(Waymo)
