@@ -11,3 +11,7 @@
     ***The Viz.AI Contact application***
   4. 자율주행 부분
     ***웨이모(Waymo)***
+
+## [2주차 과제 (2020.06.16)](https://colab.research.google.com/drive/1PFajW5n8g7_3crtbhmztviclBJzFksF8)
+
+※파이썬과 인공지능 기초수학
