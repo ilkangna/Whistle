@@ -10,3 +10,6 @@
 
 ## 2주차 과제 (2020.06.16)
 - [파이썬과 인공지능 기초수학](https://colab.research.google.com/drive/1PFajW5n8g7_3crtbhmztviclBJzFksF8)
+
+## 3주차 과제 (2020.06.16)
+- [학습률 최적화, 군집 분석 구현, Cost Function 구현](https://colab.research.google.com/drive/1V7A6_GOQzwsnC6lsGusakVDnlcy1owFS#scrollTo=iKpEGob-4EbZ)
